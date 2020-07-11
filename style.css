@@ -1,53 +1,106 @@
 body {
     font-family: 'hind siliguri';
-    margin: 0;
-    padding: 0;
+    margin : 0;
 }
 
-h1 {
-    font-size: 50px;
-}
-
-p {
-    color: gray;
-}
-
-#hero-sec {
+.header-sec{
+    height : 500px;
     background-image: url('images/header-bg.png');
-    height: 500px;
-    background-size: cover;
     background-repeat: no-repeat;
-    
-    
-    
+    background-size: cover;
+
 }
-#bio-sec {
+.bio-sec{
     background-image: url('images/biography-bg.png');
-    height: 500px;
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 350px;
+}
+.latest-sec{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 
+.half-width h2 {
+    font-size: 40px;
+}
+.latest-sec h1 {
+    text-align: center;
+    font-family: 'pacifico', cursive;
+}
 .pink-highlight {
     color : #EC4C7A;
+    font-size : 50px;
 }
-.half-width {
+.half-width p {
+    color : gray;
+}
+
+.half-width{
     width : 40%;
-    float: left;
     margin-left: 5%;
     padding-left: 2%;
+    float: left;
+}
+.trio-width {
+    width : 30%;
+    margin-left: 3.3%;
+    float: left;
+}
+.trio-width img {
+    width: 75%;
 }
 .half-width img {
     width : 100%;
 }
-.half-width h2 {
-    font-size: 40px;
-}
 .link-btn {
-    text-decoration: none;
     color : white;
-    padding : 10px 15px;
-    background : linear-gradient(45deg, #EC5197, #EC4C76);
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #EC5196, #ED4B71);
     border-radius: 10px;
+}
+footer {
+    height: 500px;
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer h1 {
+    font-size: 45px;
+    text-align: center;
+}
+#client-name {
+    text-align: center;
+}
+#client-name p {
+    color : gray;
+    margin-top: -15px;
+}
+
+#review {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+#contact-details{
+    color : white;
+    background-image: linear-gradient(45deg, #EC5299, #ED4B6E);
+    width : 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 65px;
+    line-height: 20px;
+    box-shadow: 4px 12px 30px #ED4B6E;
+}
+#copyright {
+    color : gray;
+    text-align : center;
+
 }
